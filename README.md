@@ -1,7 +1,7 @@
 # tim berners lee challenge
 ## Chardon François
 
-___***language used***___
+__***language used***__
 <ul>
   <li>HTML</li>
   <li>CSS</li>
