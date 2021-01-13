@@ -8,13 +8,15 @@ body{
     height: 100%;
     background-color: rgba(219, 212, 212, 0.829);
     font-family: Arial, Helvetica, sans-serif;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:'Open Sans', sans-serif;
 }
 #header{
     width: 33%;
     text-align: justify;
     margin-left: 38%;
     background: white;
+    margin-bottom: 2vh;
+    
     
     
     
@@ -25,7 +27,7 @@ body{
     border-width: 4px;
     border-color: rgba(219, 212, 212, 0.829);
     margin-left: 25%;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
 }
 #name h1 {
     color: red;
@@ -53,7 +55,64 @@ body{
     border: none;
     cursor: pointer;
     position: relative;
-    border-radius: 20px;
+    border-radius: 10px;
+    margin-bottom: 3%;
 }
+ #btn:hover{
+     top: 2px;
+     background: rgba(219, 212, 212, 0.829);
+     box-shadow: 0 5px red;
+     color: black;
+ }   
+#btn:active {
+    top: 6px;
+    background: red;
+    box-shadow: 0 5px rgba(219, 212, 212, 0.829);
+}
+#header{
+    height: 535px;
+}
+#link{
+    width: 33%;
+    text-align: justify;
+    margin-left: 38%;
+    background: white;
     
-    
+}
+#link li{
+    display: inline-block;
+    width: auto;
+    height: 20vh;
+    margin-left: 5vh;
+    padding: 1%;
+    position: relative;
+}   
+
+   /* a retenir bonne technique pour centrer des blocs dans un bloc */
+#link li {
+    text-align: center;
+  }
+  
+#link li:before {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -0.25em; /* space width */
+  }
+  
+  #link li a {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 1vh;
+    font-size: 25px;
+    color: gray;
+  }
+#link li a:hover{
+    color: red;
+    font-size: 20px;
+}
+#link li a:active{
+    color: red;
+    font-size: 20px;
+}
