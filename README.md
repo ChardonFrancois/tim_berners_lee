@@ -2,5 +2,5 @@
 ## Chardon François
 
 ***language used***
---HTML
---CSS
+-HTML
+-CSS
