@@ -1,2 +1,6 @@
-# tim_berners_lee_challenge
+# tim berners lee challenge
 ## Chardon François
+
+***language used***
+--HTML
+--CSS
